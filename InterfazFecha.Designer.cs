@@ -34,11 +34,11 @@
             this.MTFechainicial = new System.Windows.Forms.MaskedTextBox();
             this.BAgregar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
             this.button6 = new System.Windows.Forms.Button();
@@ -52,11 +52,11 @@
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.button10 = new System.Windows.Forms.Button();
-            this.maskedTextBox5 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox6 = new System.Windows.Forms.MaskedTextBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.maskedTextBox6 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox5 = new System.Windows.Forms.MaskedTextBox();
+            this.button10 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
             this.button11 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -78,7 +78,7 @@
             this.LBFechas.FormattingEnabled = true;
             this.LBFechas.Location = new System.Drawing.Point(16, 29);
             this.LBFechas.Name = "LBFechas";
-            this.LBFechas.Size = new System.Drawing.Size(123, 329);
+            this.LBFechas.Size = new System.Drawing.Size(139, 329);
             this.LBFechas.TabIndex = 1;
             // 
             // label2
@@ -95,7 +95,7 @@
             this.MTFechainicial.Location = new System.Drawing.Point(201, 12);
             this.MTFechainicial.Mask = "0 0/0 0/0 0 0 0";
             this.MTFechainicial.Name = "MTFechainicial";
-            this.MTFechainicial.Size = new System.Drawing.Size(72, 20);
+            this.MTFechainicial.Size = new System.Drawing.Size(81, 20);
             this.MTFechainicial.TabIndex = 3;
             this.MTFechainicial.ValidatingType = typeof(System.DateTime);
             // 
@@ -124,36 +124,14 @@
             this.panel1.Size = new System.Drawing.Size(217, 70);
             this.panel1.TabIndex = 5;
             // 
-            // label3
+            // maskedTextBox2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(13, 10);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 13);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Comparar";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.IndianRed;
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(16, 27);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(28, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "=";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.IndianRed;
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(50, 27);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(27, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = ">";
-            this.button2.UseVisualStyleBackColor = false;
+            this.maskedTextBox2.Location = new System.Drawing.Point(130, 27);
+            this.maskedTextBox2.Mask = "0 0/0 0/0 0 0 0";
+            this.maskedTextBox2.Name = "maskedTextBox2";
+            this.maskedTextBox2.Size = new System.Drawing.Size(72, 20);
+            this.maskedTextBox2.TabIndex = 6;
+            this.maskedTextBox2.ValidatingType = typeof(System.DateTime);
             // 
             // button3
             // 
@@ -166,14 +144,36 @@
             this.button3.Text = "<";
             this.button3.UseVisualStyleBackColor = false;
             // 
-            // maskedTextBox2
+            // button2
             // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(130, 27);
-            this.maskedTextBox2.Mask = "0 0/0 0/0 0 0 0";
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(72, 20);
-            this.maskedTextBox2.TabIndex = 6;
-            this.maskedTextBox2.ValidatingType = typeof(System.DateTime);
+            this.button2.BackColor = System.Drawing.Color.IndianRed;
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(50, 27);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(27, 23);
+            this.button2.TabIndex = 2;
+            this.button2.Text = ">";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.IndianRed;
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(16, 27);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(28, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "=";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(13, 10);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(52, 13);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Comparar";
             // 
             // panel2
             // 
@@ -314,14 +314,32 @@
             this.panel4.Size = new System.Drawing.Size(362, 74);
             this.panel4.TabIndex = 10;
             // 
-            // label6
+            // label7
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(3, 9);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(99, 13);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Fecha entre fechas";
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(216, 33);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(14, 13);
+            this.label7.TabIndex = 12;
+            this.label7.Text = "Y";
+            // 
+            // maskedTextBox6
+            // 
+            this.maskedTextBox6.Location = new System.Drawing.Point(247, 30);
+            this.maskedTextBox6.Mask = "0 0/0 0/0 0 0 0";
+            this.maskedTextBox6.Name = "maskedTextBox6";
+            this.maskedTextBox6.Size = new System.Drawing.Size(72, 20);
+            this.maskedTextBox6.TabIndex = 7;
+            this.maskedTextBox6.ValidatingType = typeof(System.DateTime);
+            // 
+            // maskedTextBox5
+            // 
+            this.maskedTextBox5.Location = new System.Drawing.Point(131, 30);
+            this.maskedTextBox5.Mask = "0 0/0 0/0 0 0 0";
+            this.maskedTextBox5.Name = "maskedTextBox5";
+            this.maskedTextBox5.Size = new System.Drawing.Size(72, 20);
+            this.maskedTextBox5.TabIndex = 7;
+            this.maskedTextBox5.ValidatingType = typeof(System.DateTime);
             // 
             // button10
             // 
@@ -334,32 +352,14 @@
             this.button10.Text = "Está Entre";
             this.button10.UseVisualStyleBackColor = false;
             // 
-            // maskedTextBox5
+            // label6
             // 
-            this.maskedTextBox5.Location = new System.Drawing.Point(131, 30);
-            this.maskedTextBox5.Mask = "0 0/0 0/0 0 0 0";
-            this.maskedTextBox5.Name = "maskedTextBox5";
-            this.maskedTextBox5.Size = new System.Drawing.Size(72, 20);
-            this.maskedTextBox5.TabIndex = 7;
-            this.maskedTextBox5.ValidatingType = typeof(System.DateTime);
-            // 
-            // maskedTextBox6
-            // 
-            this.maskedTextBox6.Location = new System.Drawing.Point(247, 30);
-            this.maskedTextBox6.Mask = "0 0/0 0/0 0 0 0";
-            this.maskedTextBox6.Name = "maskedTextBox6";
-            this.maskedTextBox6.Size = new System.Drawing.Size(72, 20);
-            this.maskedTextBox6.TabIndex = 7;
-            this.maskedTextBox6.ValidatingType = typeof(System.DateTime);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(216, 33);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(14, 13);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "Y";
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(3, 9);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(99, 13);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "Fecha entre fechas";
             // 
             // button11
             // 
