@@ -21,23 +21,23 @@ namespace ProyectoFecha
 
         #region Atributos
         //Declaracion de Atributos
-        private int _dia=1;
-        private int _mes=1;
-        private int _ano=2000;
+        private int _dia;
+        private int _mes;
+        private int _ano;
         #endregion
         #region Propiedades
         public int D
         {
             get { return _dia; }
             set {
-                this._dia = EsFechaValida(value, _mes, _ano) ? value : _dia;
+                this._dia = EsFechaValida(value, mes_inicial, ano_inicial) ? value : _dia;
             }
         }        
         public int M
         {
             get { return _mes; }
             set {
-                this._mes = EsFechaValida(_dia, value, _ano) ? value : _mes;
+                this._mes = EsFechaValida(dia_inicial, value, ano_inicial) ? value : _mes;
                 }
         }
         public int A
@@ -45,7 +45,7 @@ namespace ProyectoFecha
             get { return _ano; }
             set
             {
-                this._ano=EsFechaValida(_dia, _mes, value) ? value : _ano;
+                this._ano=EsFechaValida(dia_inicial, mes_inicial, value) ? value : _ano;
             }
         }
         #endregion
