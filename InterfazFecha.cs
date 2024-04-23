@@ -28,15 +28,20 @@ namespace ProyectoFecha
         private void BAgregar_Click(object sender, EventArgs e)
         {
             string[] dato = MTFechainicial.Text.Replace(" ", "").Split('/');            
-            if (dato[0] == "" || dato[1] == "" | dato[2] == "")
+            if (dato[0] == "" && dato[1] == "" && dato[2] == "")
             {
                 MessageBox.Show("Parametros invalidos, Ingresa automaticamente la fecha predeterminada");
                 InsertarOrdenado(new Fecha());
                 listarfechas();
                 return;
             }
+            else if (dato[0] == "" || dato[1] == "" || dato[2] == "")
+            {
+                MessageBox.Show("Parametros invalidos, no se agrega la fecha");
+                return;
+            }
             InsertarOrdenado(new Fecha(int.Parse(dato[0]), int.Parse(dato[1]), int.Parse(dato[2]))); 
-            listarfechas();        
+            listarfechas();            
         }
         public void InsertarOrdenado(Fecha f)
         {
@@ -77,7 +82,8 @@ namespace ProyectoFecha
                         break;
                     }
                 }
-            }           
+            }
+            cantidad++;
         }
         public void listarfechas()
         {
