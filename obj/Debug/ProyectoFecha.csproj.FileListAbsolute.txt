@@ -1,0 +1,10 @@
+C:\Users\jua20\Desktop\universidad\Diseño y Desarrollo\Formas\ProyectoFecha\ProyectoFecha\bin\Debug\ProyectoFecha.exe.config
+C:\Users\jua20\Desktop\universidad\Diseño y Desarrollo\Formas\ProyectoFecha\ProyectoFecha\bin\Debug\ProyectoFecha.exe
+C:\Users\jua20\Desktop\universidad\Diseño y Desarrollo\Formas\ProyectoFecha\ProyectoFecha\bin\Debug\ProyectoFecha.pdb
+C:\Users\jua20\Desktop\universidad\Diseño y Desarrollo\Formas\ProyectoFecha\ProyectoFecha\obj\Debug\ProyectoFecha.csproj.AssemblyReference.cache
+C:\Users\jua20\Desktop\universidad\Diseño y Desarrollo\Formas\ProyectoFecha\ProyectoFecha\obj\Debug\ProyectoFecha.InterfazFecha.resources
+C:\Users\jua20\Desktop\universidad\Diseño y Desarrollo\Formas\ProyectoFecha\ProyectoFecha\obj\Debug\ProyectoFecha.Properties.Resources.resources
+C:\Users\jua20\Desktop\universidad\Diseño y Desarrollo\Formas\ProyectoFecha\ProyectoFecha\obj\Debug\ProyectoFecha.csproj.GenerateResource.cache
+C:\Users\jua20\Desktop\universidad\Diseño y Desarrollo\Formas\ProyectoFecha\ProyectoFecha\obj\Debug\ProyectoFecha.csproj.CoreCompileInputs.cache
+C:\Users\jua20\Desktop\universidad\Diseño y Desarrollo\Formas\ProyectoFecha\ProyectoFecha\obj\Debug\ProyectoFecha.exe
+C:\Users\jua20\Desktop\universidad\Diseño y Desarrollo\Formas\ProyectoFecha\ProyectoFecha\obj\Debug\ProyectoFecha.pdb

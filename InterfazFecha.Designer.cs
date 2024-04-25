@@ -34,6 +34,7 @@
             this.MTFechainicial = new System.Windows.Forms.MaskedTextBox();
             this.BAgregar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+<<<<<<< HEAD
             this.MTComparacion = new System.Windows.Forms.MaskedTextBox();
             this.BMenorQue = new System.Windows.Forms.Button();
             this.BMayorque = new System.Windows.Forms.Button();
@@ -42,6 +43,16 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.MTFechasentre = new System.Windows.Forms.MaskedTextBox();
             this.BDiasEntre = new System.Windows.Forms.Button();
+=======
+            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
+            this.button6 = new System.Windows.Forms.Button();
+>>>>>>> 9d3cbedb62d0d9902d0b876efdc4fb3c188d9b4a
             this.label4 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.maskedTextBox4 = new System.Windows.Forms.MaskedTextBox();
@@ -114,16 +125,24 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.LightGray;
+<<<<<<< HEAD
             this.panel1.Controls.Add(this.MTComparacion);
             this.panel1.Controls.Add(this.BMenorQue);
             this.panel1.Controls.Add(this.BMayorque);
             this.panel1.Controls.Add(this.Bigual);
+=======
+            this.panel1.Controls.Add(this.maskedTextBox2);
+            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.button1);
+>>>>>>> 9d3cbedb62d0d9902d0b876efdc4fb3c188d9b4a
             this.panel1.Controls.Add(this.label3);
             this.panel1.Location = new System.Drawing.Point(161, 58);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(217, 70);
             this.panel1.TabIndex = 5;
             // 
+<<<<<<< HEAD
             // MTComparacion
             // 
             this.MTComparacion.Location = new System.Drawing.Point(130, 27);
@@ -168,6 +187,49 @@
             this.Bigual.Text = "=";
             this.Bigual.UseVisualStyleBackColor = false;
             this.Bigual.Click += new System.EventHandler(this.Bigual_Click);
+=======
+            // maskedTextBox2
+            // 
+            this.maskedTextBox2.Location = new System.Drawing.Point(130, 27);
+            this.maskedTextBox2.Mask = "0 0/0 0/0 0 0 0";
+            this.maskedTextBox2.Name = "maskedTextBox2";
+            this.maskedTextBox2.Size = new System.Drawing.Size(72, 20);
+            this.maskedTextBox2.TabIndex = 6;
+            this.maskedTextBox2.ValidatingType = typeof(System.DateTime);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.IndianRed;
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(85, 27);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(27, 23);
+            this.button3.TabIndex = 3;
+            this.button3.Text = "<";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.IndianRed;
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(50, 27);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(27, 23);
+            this.button2.TabIndex = 2;
+            this.button2.Text = ">";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.IndianRed;
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(16, 27);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(28, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "=";
+            this.button1.UseVisualStyleBackColor = false;
+>>>>>>> 9d3cbedb62d0d9902d0b876efdc4fb3c188d9b4a
             // 
             // label3
             // 
@@ -181,14 +243,22 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.LightGray;
+<<<<<<< HEAD
             this.panel2.Controls.Add(this.MTFechasentre);
             this.panel2.Controls.Add(this.BDiasEntre);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Location = new System.Drawing.Point(161, 132);
+=======
+            this.panel2.Controls.Add(this.maskedTextBox3);
+            this.panel2.Controls.Add(this.button6);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Location = new System.Drawing.Point(161, 134);
+>>>>>>> 9d3cbedb62d0d9902d0b876efdc4fb3c188d9b4a
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(217, 70);
             this.panel2.TabIndex = 7;
             // 
+<<<<<<< HEAD
             // MTFechasentre
             // 
             this.MTFechasentre.Location = new System.Drawing.Point(130, 27);
@@ -209,6 +279,27 @@
             this.BDiasEntre.Text = "Dias Entre";
             this.BDiasEntre.UseVisualStyleBackColor = false;
             this.BDiasEntre.Click += new System.EventHandler(this.BDiasEntre_Click);
+=======
+            // maskedTextBox3
+            // 
+            this.maskedTextBox3.Location = new System.Drawing.Point(130, 27);
+            this.maskedTextBox3.Mask = "0 0/0 0/0 0 0 0";
+            this.maskedTextBox3.Name = "maskedTextBox3";
+            this.maskedTextBox3.Size = new System.Drawing.Size(72, 20);
+            this.maskedTextBox3.TabIndex = 6;
+            this.maskedTextBox3.ValidatingType = typeof(System.DateTime);
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.IndianRed;
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Location = new System.Drawing.Point(16, 27);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(74, 23);
+            this.button6.TabIndex = 1;
+            this.button6.Text = "Dias Entre";
+            this.button6.UseVisualStyleBackColor = false;
+>>>>>>> 9d3cbedb62d0d9902d0b876efdc4fb3c188d9b4a
             // 
             // label4
             // 
@@ -332,7 +423,11 @@
             this.maskedTextBox6.Location = new System.Drawing.Point(247, 30);
             this.maskedTextBox6.Mask = "0 0/0 0/0 0 0 0";
             this.maskedTextBox6.Name = "maskedTextBox6";
+<<<<<<< HEAD
             this.maskedTextBox6.Size = new System.Drawing.Size(81, 20);
+=======
+            this.maskedTextBox6.Size = new System.Drawing.Size(72, 20);
+>>>>>>> 9d3cbedb62d0d9902d0b876efdc4fb3c188d9b4a
             this.maskedTextBox6.TabIndex = 7;
             this.maskedTextBox6.ValidatingType = typeof(System.DateTime);
             // 
@@ -341,7 +436,11 @@
             this.maskedTextBox5.Location = new System.Drawing.Point(131, 30);
             this.maskedTextBox5.Mask = "0 0/0 0/0 0 0 0";
             this.maskedTextBox5.Name = "maskedTextBox5";
+<<<<<<< HEAD
             this.maskedTextBox5.Size = new System.Drawing.Size(79, 20);
+=======
+            this.maskedTextBox5.Size = new System.Drawing.Size(72, 20);
+>>>>>>> 9d3cbedb62d0d9902d0b876efdc4fb3c188d9b4a
             this.maskedTextBox5.TabIndex = 7;
             this.maskedTextBox5.ValidatingType = typeof(System.DateTime);
             // 
@@ -396,7 +495,10 @@
             this.Controls.Add(this.label1);
             this.Name = "InterfazFecha";
             this.Text = "Fecha";
+<<<<<<< HEAD
             this.Load += new System.EventHandler(this.InterfazFecha_Load);
+=======
+>>>>>>> 9d3cbedb62d0d9902d0b876efdc4fb3c188d9b4a
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -418,6 +520,7 @@
         private System.Windows.Forms.MaskedTextBox MTFechainicial;
         private System.Windows.Forms.Button BAgregar;
         private System.Windows.Forms.Panel panel1;
+<<<<<<< HEAD
         private System.Windows.Forms.Button Bigual;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button BMenorQue;
@@ -426,6 +529,16 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.MaskedTextBox MTFechasentre;
         private System.Windows.Forms.Button BDiasEntre;
+=======
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
+        private System.Windows.Forms.Button button6;
+>>>>>>> 9d3cbedb62d0d9902d0b876efdc4fb3c188d9b4a
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.MaskedTextBox maskedTextBox4;

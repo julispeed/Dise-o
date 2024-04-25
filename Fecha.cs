@@ -7,16 +7,23 @@ using System.Security.Permissions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+<<<<<<< HEAD
 using System.Xml.Serialization;
+=======
+>>>>>>> 9d3cbedb62d0d9902d0b876efdc4fb3c188d9b4a
 
 namespace ProyectoFecha
 {
 
     public class Fecha 
     {
+<<<<<<< HEAD
 
         #region Atributos estaticos
         //DECLARACION DE ATRIBUTOS ESTATICOS
+=======
+        #region Atributos estaticos
+>>>>>>> 9d3cbedb62d0d9902d0b876efdc4fb3c188d9b4a
         private static int dia_inicial = 1;
         private static int mes_inicial = 1;
         private static int ano_inicial = 2000;
@@ -76,6 +83,7 @@ namespace ProyectoFecha
         }
         #endregion
         #region Comandos
+<<<<<<< HEAD
         public void IncrementarDia()
         {
             if (D == UltimoDiaDelMes(M,A))
@@ -137,6 +145,9 @@ namespace ProyectoFecha
             }
             return  ultimodia;
         }
+=======
+
+>>>>>>> 9d3cbedb62d0d9902d0b876efdc4fb3c188d9b4a
         #endregion
 
         #region Consultas
@@ -216,11 +227,16 @@ namespace ProyectoFecha
         public static bool Esbisiesto(int a)
         {
             bool resultado = false;
+<<<<<<< HEAD
             if ((a % 4 == 0 && a % 100 != 0) || (a % 400 == 0))
+=======
+            if (a % 4 == 0 || a==0)
+>>>>>>> 9d3cbedb62d0d9902d0b876efdc4fb3c188d9b4a
                 resultado = true;
 
            return resultado;
         }
+<<<<<<< HEAD
 
         public bool EsIgualA(Fecha OtraFecha)
         {
@@ -288,6 +304,8 @@ namespace ProyectoFecha
             return cantDias;
         }
         
+=======
+>>>>>>> 9d3cbedb62d0d9902d0b876efdc4fb3c188d9b4a
         #endregion
     }
 }

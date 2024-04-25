@@ -97,6 +97,7 @@ namespace ProyectoFecha
             }
         }
 
+<<<<<<< HEAD
         private void BDiasEntre_Click(object sender, EventArgs e)
         {
             if (LBFechas.SelectedIndex != -1)
@@ -193,5 +194,7 @@ namespace ProyectoFecha
                 MessageBox.Show("Debe seleccionar una fecha de la lista.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+=======
+>>>>>>> 9d3cbedb62d0d9902d0b876efdc4fb3c188d9b4a
     }
 }
